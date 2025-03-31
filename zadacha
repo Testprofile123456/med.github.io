@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меден Рай</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8dc;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .info {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ffcc00;
+            padding: 10px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>МЕДЕН РАЙ</h1>
+        <nav>
+            <a href="#nectar">Нектарен мед</a>
+            <a href="#manov">Манов мед</a>
+            <a href="#natural">Натурален мед</a>
+        </nav>
+    </header>
+    <section id="nectar" class="info">
+        <h2>Нектарен пчелен мед</h2>
+        <p><strong>Нектарен пчелен мед</strong> – пчелен мед, получен от нектар на растения...</p>
+    </section>
+    <section id="manov" class="info">
+        <h2>Манов мед</h2>
+        <p><strong>Манов мед</strong> – мед, получен главно от секретите на смучещи насекоми...</p>
+    </section>
+    <section id="natural" class="info">
+        <h2>Натурален пчелен мед</h2>
+        <p>За натурален се счита медът, който:</p>
+        <ul>
+            <li>не е затоплян</li>
+            <li>не е химически обработен</li>
+            <li>не съдържа добавки</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Медът е полезен за вашето здраве</p>
+    </footer>
+</body>
+</html>
